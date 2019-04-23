@@ -70,7 +70,7 @@ html, body {
     background-color: white;
     position: relative;
     top: -15px;
-    padding: 10px;
+    padding: 20px;
     border-width: 12px;
     border-style: solid;
     background-clip: padding-box;
@@ -98,18 +98,26 @@ html, body {
     width: 95%;
     height: 50px;
     border: 1px solid rgb(46, 96, 105);
+    padding: 8px 10px;
 }
 
+.input-container input [type=email]:focus ,input[type=text]:focus, input[type=tel]:focus{
+    outline: 0;
+}
 .input-container input[type=email] {
     width: 95%;
     height: 50px;
     border: 1px solid rgb(46, 96, 105);
+    padding: 8px 10px;
 }
+
+
 
 .input-container input[type=tel] {
     width: 95%;
     height: 50px;
     border: 1px solid rgb(46, 96, 105);
+    padding: 8px 10px;
 }
 
 .form p {
